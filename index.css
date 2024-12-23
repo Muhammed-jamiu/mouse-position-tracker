@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid darkgray;
+  background-color: darkgray;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+.mouse-position {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+.active {
+  background: linear-gradient(150deg, red, blue);
+}
+.output {
+  margin-bottom: 30px;
+}
